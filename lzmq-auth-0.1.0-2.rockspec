@@ -1,11 +1,11 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "lzmq-auth"
-version = "0.1.0-1"
+version = "0.1.0-2"
 
 -- LuaDist source
 source = {
-  tag = "0.1.0-1",
+  tag = "0.1.0-2",
   url = "git://github.com/LuaDist-testing/lzmq-auth.git"
 }
 -- Original source
@@ -21,7 +21,7 @@ description = {
 }
 
 dependencies = {
-  "lua >= 5.1, < 5.3",
+  "lua >= 5.1, < 5.4",
   -- "path", -- for test and for load all certs from dir
   -- "lzmq > 3.1" or "lzmq-ffi > 3.1",
 }
